@@ -7,13 +7,13 @@ namespace Answer
 	public class ModuloStubEasy
 	{
 // }
-public static string PairImpair(int nombre)
+public static string EvenOrOdd(int number)
 {
-    string reponse = "";
+    string response = "";
 
-	// si nombre est pair, la variable reponse doit contenir "pair" ("impair" dans le cas contraire) 
+	// si number est pair, la variable response doit contenir "pair" ("impair" dans le cas contraire) 
 	
-	return reponse;
+	return response;
 }
 //{ autofold
 	}

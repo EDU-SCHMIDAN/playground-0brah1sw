@@ -9,6 +9,10 @@ The source code is on [GitHub](https://github.com/TechDotIO/csharp-template), pl
 
 @[Pair ou Impair ?]({"stubs": ["Exercises/ModuloStubEasy.cs"],"command": "TechIo.ModuloTest.VerifyModuloEasy"})
 
+# Niveau moyen
+
+@[Année bissextile ?]({"stubs": ["Exercises/ModuloStubMedium.cs"],"command": "TechIo.ModuloTest.VerifyModuloMedium"})
+
 # Hands-on Demo
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["Exercises/UniverseStub.cs"],"command": "TechIo.UniverseTest.VerifyCountAllStars"})
