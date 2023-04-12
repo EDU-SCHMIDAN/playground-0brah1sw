@@ -5,6 +5,10 @@ This C# template lets you get started quickly with a simple working example usin
 
 The source code is on [GitHub](https://github.com/TechDotIO/csharp-template), please feel free to come up with proposals to improve it.
 
+# Niveau facile
+
+@[Pair ou Impair ?]({"stubs": ["Exercises/ModuloStub.cs"],"command": "TechIo.ModuloTest.VerifyModuloEasy"})
+
 # Hands-on Demo
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["Exercises/UniverseStub.cs"],"command": "TechIo.UniverseTest.VerifyCountAllStars"})

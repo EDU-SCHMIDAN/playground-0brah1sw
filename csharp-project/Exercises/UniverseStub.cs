@@ -1,5 +1,5 @@
 // { autofold
-﻿using System;
+using System;
 using System.Linq;
 
 namespace Answer
