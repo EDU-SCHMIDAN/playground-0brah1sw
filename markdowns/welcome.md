@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/csharp-template), pl
 
 # Niveau facile
 
-@[Pair ou Impair ?]({"stubs": ["Exercises/ModuloStub.cs"],"command": "TechIo.ModuloTest.VerifyModuloEasy"})
+@[Pair ou Impair ?]({"stubs": ["Exercises/ModuloStubEasy.cs"],"command": "TechIo.ModuloTest.VerifyModuloEasy"})
 
 # Hands-on Demo
 
