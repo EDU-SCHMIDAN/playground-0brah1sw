@@ -29,10 +29,10 @@ namespace TechIo
         {
             level = 2;
             shouldShowHint = true;
-            Assert.AreEqual(true, ModuloStubMedium.IsLeapYear(2018));
+            Assert.AreEqual(false, ModuloStubMedium.IsLeapYear(2018));
             Assert.AreEqual(true, ModuloStubMedium.IsLeapYear(2008));
             Assert.AreEqual(true, ModuloStubMedium.IsLeapYear(2000));
-            Assert.AreEqual(true, ModuloStubMedium.IsLeapYear(1900));
+            Assert.AreEqual(false, ModuloStubMedium.IsLeapYear(1900));
             shouldShowHint = false;
         }
 
@@ -59,7 +59,7 @@ namespace TechIo
                     {
                         // On Failure
                         PrintMessage("Hint 💡", "Pour être bissextile, une année doit dans tous les cas être divisible par 4 ; 🤔");
-                        PrintMessage("Hint 💡", "mais si c’est une année de centenaire (comme 1800, 1900, etc.), elle doit en complément être divisible par 400. ? 🤔");
+                        PrintMessage("Hint 💡", "mais si c'est une année de centenaire (comme 1800, 1900, etc.), elle doit en complément être divisible par 400. ? 🤔");
                     }
                     else
                     {
