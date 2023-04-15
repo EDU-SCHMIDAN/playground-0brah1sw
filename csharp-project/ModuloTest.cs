@@ -36,6 +36,19 @@ namespace TechIo
             shouldShowHint = false;
         }
 
+        [TestMethod]
+        public void VerifyModuloHard()
+        {
+            level = 3;
+            shouldShowHint = true;
+            Assert.AreEqual(false, ModuloStubHard.IsPrime(1));
+            Assert.AreEqual(false, ModuloStubHard.IsPrime(9));
+            Assert.AreEqual(true, ModuloStubHard.IsPrime(19));
+            Assert.AreEqual(true, ModuloStubHard.IsPrime(29));
+            Assert.AreEqual(false, ModuloStubHard.IsPrime(39));
+            shouldShowHint = false;
+        }
+
         [TestCleanup()]
         public void Cleanup()
         {
@@ -73,6 +86,17 @@ namespace TechIo
                     break;
 
                 case 3:
+                    if (shouldShowHint)
+                    {
+                        // On Failure
+                        PrintMessage("Hint 💡", "Attention: 1 n'est pas un nombre premier 🤔");
+                    }
+                    else
+                    {
+                        // On success
+                        PrintMessage("Bravo ! 🌟", "La solution simple consiste à tester tous les nombres de 2 à number...");
+                        PrintMessage("Bravo ! 🌟", "... mais vous avez trouvé une solution plus futée non ?");
+                    }
                     break;
 
                 default:
