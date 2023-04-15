@@ -13,6 +13,10 @@ The source code is on [GitHub](https://github.com/TechDotIO/csharp-template), pl
 
 @[Année bissextile ?]({"stubs": ["Exercises/ModuloStubMedium.cs"],"command": "TechIo.ModuloTest.VerifyModuloMedium"})
 
+# Niveau difficile
+
+@[Les nombres premiers !]({"stubs": ["Exercises/ModuloStubHard.cs"],"command": "TechIo.ModuloTest.VerifyModuloHard"})
+
 # Hands-on Demo
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["Exercises/UniverseStub.cs"],"command": "TechIo.UniverseTest.VerifyCountAllStars"})
